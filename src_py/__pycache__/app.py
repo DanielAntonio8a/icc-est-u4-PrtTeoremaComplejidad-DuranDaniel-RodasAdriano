@@ -9,7 +9,6 @@ sizes = [5000, 10000, 30000, 50000, 100000]
 
 # Arreglo base de prueba
 base_array = [random.randint(1, 100000) for _ in range(sizes[-1])]
-
 # Diccionario de resultados
 results = {
     "bubble": [],
