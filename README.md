@@ -69,11 +69,16 @@ Tamano: 100000, Algoritmo: shell, Tiempo: 0.5875 segundos
 | 100000             | 755.1944        | 647.8333            | 358.6033           | 275.3913           | 0.5875         |
 
 ## 📈 Conclusiones
+Por Adriano Rodas:
 Bubble Sort y Bubble Mejorado muestran tiempos de ejecución que crecen cuadráticamente (O(n²)), siendo ineficientes para grandes cantidades de datos.
 
 Selection Sort e Insertion Sort también presentan crecimiento cuadrático, pero son un poco más rápidos que el Bubble Sort tradicional.
 
-Shell Sort es mucho más eficiente, mostrando un crecimiento subcuadrático (aproximadamente entre O(n¹·³) y O(n¹·⁵)), siendo el algoritmo más rápido y eficiente de los evaluados.
+Shell Sort es mucho más eficiente, mostrando un crecimiento subcuadrático (aproximadamente entre O(n¹·³) y O(n¹·⁵)), siendo el algoritmo más rápido y eficiente de los evaluados..
+
+Por Daniel Duran:
+Los resultados obtenidos evidencian el impacto directo de la complejidad temporal de los algoritmos de ordenamiento. Los algoritmos Bubble Sort, Bubble Sort Mejorado, Selection Sort e Insertion Sort, todos de complejidad O(n²) en el peor caso, presentan un rendimiento notablemente deficiente frente a volúmenes de datos crecientes, lo cual los hace inadecuados para aplicaciones que involucren grandes cantidades de elementos.
+
 ## 📉 Resultados graficos 
 ![Resultados Gráficos](grafico_resultados.png)
 

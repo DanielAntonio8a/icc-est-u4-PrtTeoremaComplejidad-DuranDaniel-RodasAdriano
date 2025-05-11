@@ -3,7 +3,6 @@ import random
 import time
 class Benchmarking:
 
-    #public
     def _init_(self):
         self.mO=mo.MetodosOrdenamiento
         print("Benchmarking instanciado")

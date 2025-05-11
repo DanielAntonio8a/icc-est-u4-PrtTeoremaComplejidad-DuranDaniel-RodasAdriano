@@ -2,14 +2,13 @@ import time
 import random
 import matplotlib.pyplot as plt
 
-from sortmethods import SortMethods  # Asegúrate de tener sortmethods.py con la clase definida
+from sortmethods import SortMethods 
 
-# Tamaños de entrada
+# Bro con esa madre mi pc Explota xD
 sizes = [5000, 10000, 30000, 50000, 100000]
 
-# Arreglo base de prueba
+
 base_array = [random.randint(1, 100000) for _ in range(sizes[-1])]
-# Diccionario de resultados
 results = {
     "bubble": [],
     "bubbleMejorado": [],
@@ -18,7 +17,7 @@ results = {
     "shell": []
 }
 
-# Asociación de nombres con funciones
+
 algorithms = {
     "bubble": SortMethods.bubble_sort,
     "bubbleMejorado": SortMethods.bubble_improved_sort,
@@ -27,7 +26,7 @@ algorithms = {
     "shell": SortMethods.shell_sort
 }
 
-# Medición de tiempos
+
 for size in sizes:
     sub_array = base_array[:size]
 
@@ -40,7 +39,7 @@ for size in sizes:
         results[name].append(elapsed)
         print(f"Tamano: {size}, Algoritmo: {name}, Tiempo: {elapsed} segundos")
 
-# Generar gráfica
+# Con esto genera la grafia, la clase que faltaste
 for name, times in results.items():
     plt.plot(sizes, times, label=name)
 
